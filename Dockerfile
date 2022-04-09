@@ -62,7 +62,7 @@ RUN cd /tmp \
 
 ## Install SNORT
 RUN cd /tmp \
-    && wget https://snort.org/downloads/snort/snort-$SNORT_VER.tar.gz \
+    && wget https://www.snort.org/downloads/snort/snort-$SNORT_VER.tar.gz \
     && tar zxf snort-$SNORT_VER.tar.gz \
     && cd snort-$SNORT_VER \
     && ./configure --enable-sourcefire \
