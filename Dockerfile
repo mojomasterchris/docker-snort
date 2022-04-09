@@ -1,13 +1,13 @@
 FROM ubuntu:16.04
 
 ## Env
-ARG DAQ_VER=daq-2.0.6
+ARG DAQ_VER=daq-2.0.7
 
 ## PulledPork Env
 ARG PPORK_VERSION=0.7.3
 
 ## Snort Env
-ARG SNORT_VER=2.9.11.1
+ARG SNORT_VER=2.9.1.9
 
 
 ## Install Dependencies
