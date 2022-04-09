@@ -7,7 +7,7 @@ ARG DAQ_VER=daq-2.0.7
 ARG PPORK_VERSION=0.7.3
 
 ## Snort Env
-ARG SNORT_VER=2.9.1.9
+ARG SNORT_VER=2.9.19
 
 
 ## Install Dependencies
